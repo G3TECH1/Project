@@ -1,0 +1,923 @@
+@media only screen and (min-width: 320px) and (max-width: 744px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #logo-head {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+  }
+  #logo-head .logo1 {
+    max-width: 40%;
+    min-width: 20%;
+    clear: both;
+  }
+  #logo-head .nav-bar {
+    float: right;
+    width: 10%;
+    border: 1px solid gray;
+    padding: 5%;
+    border-radius: 4px;
+  }
+  #dropdown-menu {
+    display: none;
+    padding-bottom: 17%;
+    margin-left: auto;
+  }
+  #dropdown-menu ul {
+    margin-left: auto;
+  }
+  #dropdown-menu ul .nav-item {
+    list-style-type: none;
+  }
+  #dropdown-menu ul .nav-item a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+  }
+  #dropdown-menu ul .nav-item a:hover {
+    color: black;
+  }
+  .image {
+    display: flex;
+    padding: -3%;
+  }
+  .bolder {
+    font-weight: bolder;
+    font-size: 200%;
+  }
+  .cta-btn {
+    background-color: green;
+    color: antiquewhite;
+    display: flex;
+    width: 60%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+  }
+  .cta-btn .text-white {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    text-align: center;
+  }
+  .law-sec {
+    background-color: green;
+    color: white;
+    display: flex;
+    padding: 9%;
+  }
+  .law-sec #about {
+    text-align: center;
+    justify-content: space-between;
+  }
+  .best-header {
+    font-size: 150%;
+  }
+  .best-text {
+    margin: 2%;
+  }
+  .mb-3 {
+    display: flex;
+    padding-left: 5%;
+  }
+  .mb-3 .text-white-bg-green {
+    color: white;
+    background-color: green;
+    align-items: center;
+    text-decoration: none;
+    padding: 3%;
+  }
+  .mb-3 .text-white-bg-green .text-white {
+    vertical-align: middle;
+    filter: hue-rotate(90deg);
+    filter: sepia(190%);
+    filter: invert(200%);
+  }
+  .card-container {
+    display: block;
+  }
+  .card-container .primarycare-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  .card-container .primarycare-card:hover {
+    transform: scale(1.1);
+  }
+  .card-container .emergencycare-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  .card-container .emergencycare-card:hover {
+    transform: scale(1.1);
+  }
+  .card-container .pharmaceuticalcare-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  .card-container .pharmaceuticalcare-card:hover {
+    transform: scale(1.1);
+  }
+  .card-container .nutritionalsupport-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  .card-container .nutritionalsupport-card:hover {
+    transform: scale(1.1);
+  }
+  .card-container .laboratory-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  .card-container .laboratory-card:hover {
+    transform: scale(1.1);
+  }
+  .card-container .physical-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  .card-container .physical-card:hover {
+    transform: scale(1.1);
+  }
+  #contact {
+    background-color: white;
+    margin-left: 0%;
+    margin-right: 6%;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 7%;
+  }
+  #contact .appointment-card {
+    text-align: center;
+    margin-bottom: 6%;
+  }
+  #contact .appointment-form .form-control-border-black {
+    margin-bottom: 4%;
+  }
+  #contact #make-appointment {
+    background-color: green;
+    color: white;
+    margin-bottom: 5%;
+  }
+  .customer-feedback {
+    background-color: green;
+    padding-bottom: 14%;
+  }
+  .customer-feedback .feedback {
+    margin-left: 5%;
+    color: white;
+  }
+  .customer-feedback .feedback h4 {
+    font-size: 20px;
+    padding-top: 6%;
+  }
+  .customer-feedback .feedback-card-robertson {
+    background-color: white;
+    margin-right: 6%;
+    margin-left: 6%;
+    border-radius: 4px;
+    padding: 6%;
+    margin-bottom: 7%;
+  }
+  .customer-feedback .feedback-card-robertson .name {
+    margin-left: 3%;
+  }
+  .customer-feedback .feedback-card-robertson .testimonial {
+    font-weight: lighter;
+  }
+  .customer-feedback .feedback-card-marvin {
+    background-color: white;
+    margin-right: 6%;
+    margin-left: 6%;
+    border-radius: 4px;
+    padding: 6%;
+    margin-bottom: 7%;
+  }
+  .customer-feedback .feedback-card-marvin .name {
+    margin-left: 3%;
+  }
+  .customer-feedback .feedback-card-marvin .testimonial {
+    font-weight: lighter;
+  }
+  .customer-feedback .feedback-card-dianne {
+    background-color: white;
+    margin-right: 6%;
+    margin-left: 6%;
+    border-radius: 4px;
+    padding: 6%;
+  }
+  .customer-feedback .feedback-card-dianne .name {
+    margin-left: 3%;
+  }
+  .customer-feedback .feedback-card-dianne .testimonial {
+    font-weight: lighter;
+  }
+  .news-head {
+    text-align: center;
+  }
+  .blog-post {
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 9px;
+    margin-bottom: 15%;
+  }
+  .blog-post2 {
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 9px;
+    margin-bottom: 15%;
+  }
+  .blog-post3 {
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 9px;
+  }
+  h6 {
+    margin-left: 4%;
+    font-size: 100%;
+  }
+  .post {
+    margin-left: 5%;
+    margin-right: 2%;
+  }
+  .post .more {
+    padding-bottom: 10%;
+  }
+  .post .more #read {
+    text-decoration: none;
+    font-weight: bolder;
+    color: green;
+  }
+  .text-center {
+    display: flex;
+    padding-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+  }
+  .text-center .text-white-bg-green {
+    position: relative;
+    align-items: center;
+    background-color: green;
+    left: 30%;
+    color: white;
+    text-decoration: none;
+    padding: 3%;
+  }
+  .text-center .text-white {
+    vertical-align: middle;
+    filter: hue-rotate(90deg);
+    filter: sepia(190%);
+    filter: invert(200%);
+  }
+  footer {
+    background-color: green;
+    padding: 10%;
+    color: white;
+  }
+  footer .quick-links p a {
+    text-decoration: none;
+    color: white;
+  }
+  footer .quick-links p a:hover {
+    color: black;
+  }
+  footer .company p a {
+    text-decoration: none;
+    color: white;
+  }
+  footer .company p a:hover {
+    color: black;
+  }
+  footer .department p a {
+    text-decoration: none;
+    color: white;
+  }
+  footer .department p a:hover {
+    color: black;
+  }
+  footer .resources p a {
+    text-decoration: none;
+    color: white;
+  }
+  footer .resources p a:hover {
+    color: black;
+  }
+}
+@media only screen and (min-width: 744px) and (max-width: 3000px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  body header {
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  body header .nav-bar {
+    display: none;
+  }
+  body header .logo1 {
+    width: 140px;
+    margin-left: 2.4rem;
+    margin-top: 0.5rem;
+  }
+  body header #nav-section ul {
+    display: flex;
+    list-style: none;
+    margin-left: 3em;
+    padding: 9px;
+    width: auto;
+    justify-content: center;
+  }
+  body header #nav-section ul li {
+    padding: 0 12px;
+  }
+  body header #nav-section ul li a {
+    color: rgb(5, 82, 5);
+    text-decoration: none;
+  }
+  body header #nav-section ul li a:hover {
+    text-decoration: underline;
+    font-size: 1.03rem;
+  }
+  body .main-page .head {
+    padding: 4% 6%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  body .main-page .head .small-container {
+    display: flex;
+  }
+  body .main-page .head .small-container .bolder {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 70%;
+    height: 67%;
+  }
+  body .main-page .head .small-container .word {
+    margin-top: 1.09em;
+    padding: 9px;
+    margin-right: 3em;
+  }
+  body .main-page .head .small-container .cta-btn {
+    background-color: green;
+    color: antiquewhite;
+    display: flex;
+    width: 40%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+  }
+  body .main-page .head .small-container .cta-btn .text-white {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    text-align: center;
+  }
+  body .main-page .head .small-container #p {
+    margin-bottom: 1rem;
+    padding: 7px;
+    font-size: 1rem;
+  }
+  body .main-page .head .small-container .client .img-fluid {
+    width: 340px;
+  }
+  body .main-page .law-sec {
+    background-color: green;
+    color: white;
+  }
+  body .main-page .law-sec #about {
+    display: flex;
+  }
+  body .main-page .law-sec #about .high-quality {
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  body .main-page .law-sec #about .A24-7 {
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  body .main-page .law-sec #about .A5-plus {
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  body .main-page .law-sec #about h5 {
+    font-size: 1.3rem;
+  }
+  body .main-page .best-quality {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    padding: 14px;
+  }
+  body .main-page .best-quality .best-header {
+    font-size: 1.6rem;
+    width: 600px;
+    margin-left: 13px;
+    margin-top: 6px;
+  }
+  body .main-page .best-quality .best-text {
+    margin: auto;
+  }
+  body .main-page .best-quality .best-text p {
+    padding: 20px;
+    font-size: larger;
+    justify-content: start;
+    width: 400px;
+    height: 200px;
+    line-height: 2.6cap;
+    word-spacing: 2px;
+  }
+  body .main-page .best-quality .best-text .mb-3 {
+    display: flex;
+    padding-left: 5%;
+  }
+  body .main-page .best-quality .best-text .mb-3 .text-white-bg-green {
+    color: white;
+    background-color: green;
+    align-items: center;
+    text-decoration: none;
+    padding: 3%;
+  }
+  body .main-page .best-quality .best-text .mb-3 .text-white-bg-green .text-white {
+    vertical-align: middle;
+    filter: hue-rotate(90deg);
+    filter: sepia(190%);
+    filter: invert(200%);
+  }
+  body .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    padding: 17px;
+  }
+  body .card-container .primarycare-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  body .card-container .primarycare-card:hover {
+    transform: scale(1.04);
+  }
+  body .card-container .emergencycare-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  body .card-container .emergencycare-card:hover {
+    transform: scale(1.04);
+  }
+  body .card-container .pharmaceuticalcare-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  body .card-container .pharmaceuticalcare-card:hover {
+    transform: scale(1.04);
+  }
+  body .card-container .nutritionalsupport-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  body .card-container .nutritionalsupport-card:hover {
+    transform: scale(1.04);
+  }
+  body .card-container .laboratory-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  body .card-container .laboratory-card:hover {
+    transform: scale(1.04);
+  }
+  body .card-container .physical-card {
+    background-color: white;
+    font-weight: 800;
+    padding: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 6%;
+    transition: transform 0.5s ease;
+  }
+  body .card-container .physical-card:hover {
+    transform: scale(1.04);
+  }
+  body .image-showcase {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body .image-showcase img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  body .appointment-sect {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+  }
+  body .appointment-sect .appointment-card {
+    margin-top: 8px;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+  body .appointment-sect .appointment-form {
+    text-align: center;
+  }
+  body .appointment-sect .appointment-form .form-control-border-black {
+    margin-bottom: 4%;
+  }
+  body .appointment-sect .appointment-form #col-md-6 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10%;
+    width: 78%;
+  }
+  body .appointment-sect .appointment-form #col-md-6 .col-md-6 {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  body .appointment-sect .appointment-form #col-md-6 .col-md-6 input {
+    padding: 8px;
+    background-color: rgba(233, 228, 228, 0.781);
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+  }
+  body .appointment-sect .appointment-form #col-md-6-mt-5 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10%;
+    width: 78%;
+  }
+  body .appointment-sect .appointment-form #col-md-6-mt-5 .col-md-6-mt-5 {
+    margin-right: 7%;
+    margin-left: 7%;
+  }
+  body .appointment-sect .appointment-form #col-md-6-mt-5 .col-md-6-mt-5 input {
+    padding: 8px;
+    background-color: rgba(233, 228, 228, 0.781);
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+  }
+  body .appointment-sect .appointment-form textarea {
+    padding: 8px;
+    background-color: rgba(233, 228, 228, 0.781);
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 70%;
+    height: 40vh;
+    padding: 10px;
+    outline: none;
+  }
+  body .appointment-sect #make-appointment {
+    background-color: green;
+    color: white;
+    margin-bottom: 4%;
+    width: 200px;
+    padding: 9px;
+    border: 1px solid green;
+    float: left;
+    margin-left: 15%;
+  }
+  body .customer-feedback {
+    background-color: green;
+    padding-bottom: 14px;
+  }
+  body .customer-feedback .card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 17px;
+    gap: 2px;
+  }
+  body .customer-feedback .feedback {
+    margin-left: 10px;
+    color: white;
+  }
+  body .customer-feedback .feedback h4 {
+    font-size: 26px;
+    padding-top: 6px;
+  }
+  body .customer-feedback .feedback-card-robertson {
+    background-color: white;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 4px;
+    padding: 6%;
+    margin-bottom: 7%;
+    height: 100%;
+  }
+  body .customer-feedback .feedback-card-robertson .reaction {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  body .customer-feedback .feedback-card-robertson .name {
+    margin-left: 3%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    width: 100px;
+    height: 100px;
+  }
+  body .customer-feedback .feedback-card-robertson .testimonial {
+    font-weight: lighter;
+  }
+  body .customer-feedback .feedback-card-marvin {
+    background-color: white;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 4px;
+    padding: 6%;
+    margin-bottom: 7%;
+    height: 100%;
+  }
+  body .customer-feedback .feedback-card-marvin .name {
+    margin-left: 3%;
+  }
+  body .customer-feedback .feedback-card-marvin .reaction {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  body .customer-feedback .feedback-card-marvin .testimonial {
+    font-weight: lighter;
+  }
+  body .customer-feedback .feedback-card-dianne {
+    background-color: white;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 4px;
+    padding: 6%;
+    margin-bottom: 7%;
+    height: 100%;
+  }
+  body .customer-feedback .feedback-card-dianne .name {
+    margin-left: 3%;
+  }
+  body .customer-feedback .feedback-card-dianne .reaction {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  body .customer-feedback .feedback-card-dianne .testimonial {
+    font-weight: lighter;
+  }
+  body #news .news-head {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  body #news .blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px 12px;
+    align-items: start;
+  }
+  body #news .blog .blog-post,
+  body #news .blog .blog-post2,
+  body #news .blog .blog-post3 {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+  }
+  body #news .blog .blog-post img,
+  body #news .blog .blog-post2 img,
+  body #news .blog .blog-post3 img {
+    width: 100%;
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: block;
+  }
+  body #news .blog .blog-post h4,
+  body #news .blog .blog-post2 h4,
+  body #news .blog .blog-post3 h4 {
+    padding: 12px 16px 0 16px;
+    margin: 0;
+  }
+  body #news .blog .blog-post .content,
+  body #news .blog .blog-post2 .content,
+  body #news .blog .blog-post3 .content {
+    padding: 12px 16px 18px 16px;
+  }
+}
+@media only screen and (min-width: 744px) and (max-width: 3000px) and (min-width: 1100px) {
+  body #news .blog {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1100px;
+    gap: 32px;
+  }
+}
+@media only screen and (min-width: 744px) and (max-width: 3000px) and (min-width: 744px) and (max-width: 1099px) {
+  body #news .blog {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 920px;
+    gap: 24px;
+  }
+  body #news .text-center .text-white-bg-green {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media only screen and (min-width: 744px) and (max-width: 3000px) {
+  body #news .blog .more img,
+  body #news .post .more img,
+  body #news .more img,
+  body #news .cta-btn img,
+  body #news .text-white img {
+    width: 1.05rem;
+    max-width: 28px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 6px;
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 744px) and (max-width: 3000px) and (min-width: 744px) {
+  body #news .blog .more img,
+  body #news .cta-btn img,
+  body #news .text-white img {
+    width: 1.2rem;
+    max-width: 32px;
+  }
+}
+@media only screen and (min-width: 744px) and (max-width: 3000px) and (min-width: 1100px) {
+  body #news .blog .more img,
+  body #news .cta-btn img,
+  body #news .text-white img {
+    width: 1.25rem;
+    max-width: 36px;
+  }
+}
+@media only screen and (min-width: 744px) and (max-width: 3000px) {
+  body #news h6 {
+    font-size: 100%;
+    margin: 10px 27px;
+  }
+  body #news .post {
+    margin-left: 5%;
+    margin-right: 2%;
+  }
+  body #news .post .more {
+    padding: 12px;
+  }
+  body #news .post .more #read {
+    text-decoration: none;
+    font-weight: bolder;
+    color: green;
+  }
+  body #news .text-center {
+    padding-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  body #news .text-center .text-white-bg-green {
+    position: relative;
+    align-items: center;
+    background-color: green;
+    left: 40%;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+  }
+  body #news .text-center .text-white {
+    vertical-align: middle;
+    filter: hue-rotate(90deg);
+    filter: sepia(190%);
+    filter: invert(200%);
+  }
+  body .footer-page {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3em;
+    background-color: green;
+    padding: 12px 5px;
+    color: white;
+  }
+  body .footer-page h4 {
+    margin-bottom: 7px;
+  }
+  body .footer-page .quick-links p {
+    margin-bottom: 7px;
+  }
+  body .footer-page .quick-links p a {
+    text-decoration: none;
+    color: white;
+  }
+  body .footer-page .quick-links p a:hover {
+    color: black;
+  }
+  body .footer-page .company p {
+    margin-bottom: 7px;
+  }
+  body .footer-page .company p a {
+    text-decoration: none;
+    color: white;
+  }
+  body .footer-page .company p a:hover {
+    color: black;
+  }
+  body .footer-page .department p {
+    margin-bottom: 7px;
+  }
+  body .footer-page .department p a {
+    text-decoration: none;
+    color: white;
+  }
+  body .footer-page .department p a:hover {
+    color: black;
+  }
+  body .footer-page .resources p {
+    margin-bottom: 7px;
+  }
+  body .footer-page .resources p a {
+    text-decoration: none;
+    color: white;
+  }
+  body .footer-page .resources p a:hover {
+    color: black;
+  }
+}/*# sourceMappingURL=styles.css.map */
