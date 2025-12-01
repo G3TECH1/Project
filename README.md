@@ -66,8 +66,3 @@ If you want to update styles or content:
 2. Edit `index.html` content as needed.
 3. Preview locally, commit, and push to your repository.
 
-If you'd like, I can help:
-- Add a build script (npm) to make SCSS compilation and previews easier.
-- Replace arrow images with inline SVGs and update the markup.
-- Prepare a `package.json` and a small `README` with deploy steps for GitHub Pages.
-
